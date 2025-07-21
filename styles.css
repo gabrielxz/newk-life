@@ -252,6 +252,30 @@ body {
     transform: translateY(-5px) scale(1.1);
 }
 
+/* Emoji Icons for Activities */
+.emoji-icon {
+    font-size: 2.5rem;
+    line-height: 60px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1rem auto;
+    animation: float 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.game-item:hover .emoji-icon {
+    animation-play-state: paused;
+    transform: translateY(-5px) scale(1.1);
+}
+
+
 /* Activity Icons */
 .activity-icon {
     width: 60px;
