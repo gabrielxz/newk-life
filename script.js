@@ -39,12 +39,12 @@ function setupAlbumLinks() {
         card.addEventListener('click', () => {
             const albumId = card.getAttribute('data-album');
             
-            // Replace these URLs with your actual photo album links
+            
             const albumUrls = {
-                'winter-24': 'https://photos.google.com/your-winter-2024-album',
-                'fall-24': 'https://photos.google.com/your-fall-2024-album',
-                'summer-24': 'https://photos.google.com/your-summer-2024-album',
-                'spring-24': 'https://photos.google.com/your-spring-2024-album'
+                'Denver, NC 2024': 'https://photos.app.goo.gl/xJfSEkbnZypUK4Sp9',
+                'Banner Elk, NC 2023': 'https://photos.app.goo.gl/8F1CdF1jjjrYnUXDA',
+                'Charlotte, NC 2021': 'https://photos.app.goo.gl/8vA8EDCyLURyY6oa8',
+                'Raleigh, NC 2020': 'https://photos.app.goo.gl/ukMf8RM4PoFj7un57'
             };
             
             if (albumUrls[albumId]) {
@@ -92,7 +92,5 @@ window.addEventListener('load', function() {
     }
 });
 
-// Optional: Add some fun console messages for fellow nerds
 console.log('🎲 Welcome to Nerd Weekend!');
-console.log('🚀 Built with love, caffeine, and way too many Stack Overflow tabs');
-console.log('🔧 Want to customize? Edit the files and make it your own!');
+console.log('🚀 Who is this? Clayton? Parker? I bet it is Michael');
