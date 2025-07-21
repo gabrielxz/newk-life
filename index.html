@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerd Weekend</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-container">
+                <div class="logo">
+                    <div class="cube-face front">
+                        <div class="cube-square cube-red"></div>
+                        <div class="cube-square cube-white"></div>
+                        <div class="cube-square cube-red"></div>
+                        <div class="cube-square cube-white"></div>
+                        <div class="cube-square cube-red"></div>
+                        <div class="cube-square cube-white"></div>
+                        <div class="cube-square cube-red"></div>
+                        <div class="cube-square cube-white"></div>
+                        <div class="cube-square cube-red"></div>
+                    </div>
+                    <div class="cube-face right">
+                        <div class="cube-square cube-blue"></div>
+                        <div class="cube-square cube-yellow"></div>
+                        <div class="cube-square cube-blue"></div>
+                        <div class="cube-square cube-yellow"></div>
+                        <div class="cube-square cube-blue"></div>
+                        <div class="cube-square cube-yellow"></div>
+                        <div class="cube-square cube-blue"></div>
+                        <div class="cube-square cube-yellow"></div>
+                        <div class="cube-square cube-blue"></div>
+                    </div>
+                    <div class="cube-face top">
+                        <div class="cube-square cube-green"></div>
+                        <div class="cube-square cube-orange"></div>
+                        <div class="cube-square cube-green"></div>
+                        <div class="cube-square cube-orange"></div>
+                        <div class="cube-square cube-green"></div>
+                        <div class="cube-square cube-orange"></div>
+                        <div class="cube-square cube-green"></div>
+                        <div class="cube-square cube-orange"></div>
+                        <div class="cube-square cube-green"></div>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="site-title">NERD WEEKEND</h1>
+                    <p class="tagline">Where geeks unite for epic adventures</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-grid">
+            <!-- Next Event -->
+            <section class="card next-event">
+                <span class="card-icon">🗓️</span>
+                <h2>Next Event</h2>
+                <div class="date-large">August 15-17, 2025</div>
+                <div class="location">📍 The Geek Cave, Portland</div>
+                
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="days">25</span>
+                        <span class="countdown-label">Days</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="hours">14</span>
+                        <span class="countdown-label">Hours</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="minutes">32</span>
+                        <span class="countdown-label">Minutes</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Photo Albums -->
+            <section class="card">
+                <span class="card-icon">📸</span>
+                <h2>Memory Archives</h2>
+                <p>Relive the epic moments from past gatherings</p>
+                
+                <div class="album-grid">
+                    <div class="album-card" data-album="winter-24">
+                        <span class="album-icon">🏰</span>
+                        <div>Winter '24</div>
+                    </div>
+                    <div class="album-card" data-album="fall-24">
+                        <span class="album-icon">🌟</span>
+                        <div>Fall '24</div>
+                    </div>
+                    <div class="album-card" data-album="summer-24">
+                        <span class="album-icon">☀️</span>
+                        <div>Summer '24</div>
+                    </div>
+                    <div class="album-card" data-album="spring-24">
+                        <span class="album-icon">🌸</span>
+                        <div>Spring '24</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Activities -->
+            <section class="card">
+                <span class="card-icon">⚡</span>
+                <h2>Weekend Activities</h2>
+                <p>The epic adventures that await you</p>
+                
+                <div class="games-grid">
+                    <div class="game-item">
+                        <div class="activity-icon d20-new"></div>
+                        <div>RPG Adventures</div>
+                    </div>
+                    <div class="game-item">
+                        <div class="activity-icon retro-computer"></div>
+                        <div>Code & Create</div>
+                    </div>
+                    <div class="game-item">
+                        <div class="activity-icon board-game"></div>
+                        <div>Board Games</div>
+                    </div>
+                    <div class="game-item">
+                        <div class="activity-icon presentation"></div>
+                        <div>Nerd Talks</div>
+                    </div>
+                    <div class="game-item">
+                        <div class="activity-icon fellowship"></div>
+                        <div>Deep Convos</div>
+                    </div>
+                    <div class="game-item">
+                        <div class="activity-icon circuit"></div>
+                        <div>Maker Projects</div>
+                    </div>
+                    <div class="game-item">
+                        <div class="activity-icon pixel-heart"></div>
+                        <div>Gaming Sessions</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="card">
+                <span class="card-icon">💬</span>
+                <h2>What Nerds Say</h2>
+                
+                <div class="testimonial">
+                    "Best weekend of the year! Where else can you defeat dragons and conquer galaxies all in one place?"
+                    <div class="testimonial-author">— Alex, Level 42 Wizard</div>
+                </div>
+                
+                <div class="testimonial">
+                    "Finally found my tribe! These weekends are pure magic and caffeine-fueled fun."
+                    <div class="testimonial-author">— Sam, Professional Overthinker</div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
