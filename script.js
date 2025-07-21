@@ -44,7 +44,14 @@ function setupAlbumLinks() {
                 'Denver, NC 2024': 'https://photos.app.goo.gl/xJfSEkbnZypUK4Sp9',
                 'Banner Elk, NC 2023': 'https://photos.app.goo.gl/8F1CdF1jjjrYnUXDA',
                 'Charlotte, NC 2021': 'https://photos.app.goo.gl/8vA8EDCyLURyY6oa8',
-                'Raleigh, NC 2020': 'https://photos.app.goo.gl/ukMf8RM4PoFj7un57'
+                'Raleigh, NC 2020': 'https://photos.app.goo.gl/ukMf8RM4PoFj7un57',
+                'Charlotte, NC 2019': 'https://photos.app.goo.gl/Tgb3BJcPy82mKjKy5',
+                'Asheville, NC 2018': 'https://photos.app.goo.gl/nIyVCR70o6k1zaW92',
+                'Charlotte, NC 2017': 'https://goo.gl/photos/4wq6zZnUEVPp81E2A',
+                'Raleigh, NC 2016': 'https://goo.gl/photos/oia2aPsV3tnDf3Jh7',
+                'Charlotte, NC 2015': 'https://photos.app.goo.gl/LU173UZyzhWbpK3n7',
+                'Asheville, NC 2015': 'https://photos.app.goo.gl/WvbtMSmAM8uUmWaM6',
+                'Raleigh, NC 2014': 'https://photos.app.goo.gl/s1w4MNFZZRjBGGaw9'
             };
             
             if (albumUrls[albumId]) {
