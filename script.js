@@ -91,3 +91,53 @@ window.addEventListener('load', function() {
 
 console.log('🎲 Welcome to Nerd Weekend!');
 console.log('🚀 Who is this? Clayton? Parker? I bet it is Michael');
+
+// Prophecy Generator
+const prophecies = [
+    "The quietest player in Blood on the Clocktower will be the axis around which the entire game turns.",
+    "A liberal government will pass only because someone blinked at exactly the wrong time.",
+    "The host will say this is the last round and it will not be the last round.",
+    "An alliance formed over snacks will collapse before dessert.",
+    "A prototype brought \"just for fun\" will malfunction in a way that reveals something true.",
+    "Someone will swear they are playing rationally and no one will believe them.",
+    "A 4AM debate about free will will permanently alter one person's confidence in their own agency.",
+    "At least one accusation will be correct for entirely incorrect reasons.",
+    "The dice will remember a grudge from a previous year.",
+    "A fascist policy will pass because someone trusted tone over content.",
+    "The kitchen will become a neutral diplomatic zone for precisely nine minutes.",
+    "Someone will discover a rule in Battlestar Galactica that has been wrong for years and refuse to accept it.",
+    "The HR monitor will spike before the betrayal is consciously recognized.",
+    "A philosophical position taken at midnight will be abandoned at 2:17 AM.",
+    "One player will attempt to optimize fun and accidentally minimize it.",
+    "The phrase \"statistically improbable\" will precede something inevitable.",
+    "A chair will creak at the exact moment a lie is told.",
+    "Someone will narrate their own downfall mid sentence.",
+    "The phrase \"I am just playing for the experience\" will precede ruthless efficiency.",
+    "An inside joke will achieve mythic status before Sunday morning.",
+    "A mispronounced word will retroactively change the interpretation of a previous game.",
+    "One person will briefly suspect that the weekend is testing them.",
+    "A choice presented as harmless will echo across three separate games.",
+    "Someone will feel watched by a future version of themselves.",
+    "A player who prides themselves on reading tells will become unreadable to themselves.",
+    "A moment of perfect clarity will arrive and pass without being noticed.",
+    "The lights will flicker during a vote and no one will comment on it.",
+    "An argument about game balance will become an argument about morality.",
+    "A rule clarification will expose more about the table than the rule itself.",
+    "Something will happen that has happened every year, and no one will admit they were expecting it."
+];
+
+function revealProphecy() {
+    const prophecyText = document.getElementById('prophecy-text');
+    const randomIndex = Math.floor(Math.random() * prophecies.length);
+    const prophecy = prophecies[randomIndex];
+
+    // Remove any existing animation class
+    prophecyText.classList.remove('prophecy-revealed');
+
+    // Force reflow to restart animation
+    void prophecyText.offsetWidth;
+
+    // Set new prophecy and add animation
+    prophecyText.innerHTML = prophecy;
+    prophecyText.classList.add('prophecy-revealed');
+}

@@ -157,14 +157,20 @@
 </section>
 
 
-            <!-- Photo Albums -->
-            <section class="card">
-    <span class="card-icon">📸</span>
-    <h2>Memory Archives</h2>
-    <div class="redacted">
-        <div class="redacted-label">🕵️ REDACTED</div>
-        <p>These memory archives have been temporarily sealed.</p>
+            <!-- Prophecy Generator -->
+            <section class="card prophecy-card">
+    <span class="card-icon">🔮</span>
+    <h2>The Oracle Speaks</h2>
+    <p class="prophecy-subtitle">Glimpse into what awaits...</p>
+    <div class="prophecy-container">
+        <div class="prophecy-text" id="prophecy-text">
+            <span class="prophecy-placeholder">The veil between moments grows thin...</span>
+        </div>
     </div>
+    <button class="reveal-btn" id="reveal-btn" onclick="revealProphecy()">
+        <span class="btn-text">Reveal Omen</span>
+        <span class="btn-glow"></span>
+    </button>
 </section>
 
 <!-- Activities -->
