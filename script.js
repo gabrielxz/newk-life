@@ -1,6 +1,6 @@
 // Countdown Timer
 function updateCountdown() {
-    const eventDate = new Date('September 25, 2025 18:00:00').getTime();
+    const eventDate = new Date('August 27, 2026 18:00:00').getTime();
     const now = new Date().getTime();
     const distance = eventDate - now;
 
